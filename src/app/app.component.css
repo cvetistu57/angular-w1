@@ -1,0 +1,54 @@
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  h1 {
+    color:rgb( 218, 31, 81);
+  }
+  
+   .show-content {
+      display: none;
+    }
+    
+    .drop-content.show-content {
+      display: block;
+    }
+    
+    .drop-content.h2 {
+      cursor: pointer;
+    }
+
+    button.drop-content{
+        background-color: rgb( 225, 77, 112);
+        transition-duration: 0.4s;
+        cursor: pointer;
+        font-family: Fira Sans, sans-serif;
+        font-weight: bold;
+        color: white;
+        width: 100%;
+        padding: 5px 10px;
+        text-align: left;
+        border-radius: 10px;
+        border-color: transparent;
+    }
+    
+    
+    button.drop-content:hover {
+        background-color: rgb( 218, 31, 81);
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.10);
+    }
+  
+    
+    section.question{
+        margin: 10px 0px;
+    }
+    
+  
+    
